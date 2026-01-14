@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px;    
+    padding-top: 10px; 
+    padding-left: 20px;
+    border: 16px solid black;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 1rem;
+    background: red;
+}
+
+header {
+    margin-bottom: 0 0 0 1em;
+    padding: 1em 0;
+}
+
+.head_text {
+    padding: 0.5em; 
+    background: lightcyan;
+}
+
+section {
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 0.6em;
+    background: rgba(169, 197, 245, 0.485);
+}
+
+h2 {
+    color: rgb(3, 3, 175);
+}
+
+b {
+    color: green;
+}
+
+ol {
+    padding: 0.8em;
+}
