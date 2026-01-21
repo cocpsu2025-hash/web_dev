@@ -1,3 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main {
-    border: 0.2em solid black
+    border: 0.2em solid black;
+    max-width: 450px;
+    margin: 30vh auto; 
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5em;
+}
+
+label {
+    width: 90%;
+    font-size: 1.4rem;
+    padding: 0.5em; 
+}
+
+input {
+    width: 90%;
+    font-size: 1.4rem;
+    padding: 0.5em;
+    margin: 0.5em 0.5em;
+}
+
+button {
+    padding: 0.5em;
+    margin: 1em;
 }
