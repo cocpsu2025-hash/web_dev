@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    /* border: 2px solid green; */
 }
 
 main {
     border: 0.2em solid black;
     max-width: 450px;
-    margin: 30vh auto; 
+    margin: 30vh auto;
+    background: rgb(184, 228, 242);
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 4px black;
 }
 
 h2 {
@@ -16,20 +20,40 @@ h2 {
     padding: 0.5em;
 }
 
-label {
-    width: 90%;
+label,
+input {
+    width: 95%;
     font-size: 1.4rem;
-    padding: 0.5em; 
+    padding: 0.5em;
 }
 
 input {
-    width: 90%;
-    font-size: 1.4rem;
-    padding: 0.5em;
-    margin: 0.5em 0.5em;
+    margin: 0.5em;
+}
+
+.submitGroup {
+    /* border: 2px solid green; */
+    text-align: center;
+
+    /* width: fit-content; */
+    /* margin: 0 auto; */
 }
 
 button {
     padding: 0.5em;
-    margin: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    background: rgb(165, 242, 165);
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+.btnSubmit {
+    /* margin-left: 1em; */
+    margin-bottom: 1em;
+}
+
+.btnReset {
+    background: red;
+    color: white;
 }
