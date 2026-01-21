@@ -48,6 +48,12 @@ button {
     margin-top: 1em;
 }
 
+button:hover {
+    box-shadow: 2px 2px 2px blue;
+    scale: 2;
+    rotate: 15deg;
+}
+
 .btnSubmit {
     /* margin-left: 1em; */
     margin-bottom: 1em;
