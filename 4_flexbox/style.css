@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    background: lightblue;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+} */
+
+nav {
+    display: flex;
+    border: 2px solid black;
+    background: lightblue;
+    padding: 1em;
+}
+ 
+.logo {
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.login {
+    margin-left: auto;
+}
