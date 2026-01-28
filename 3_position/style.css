@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: white;
+    /* border-radius: 0.5em; */
+    /* font-size: 1.2rem; */
+    text-align: center;
+
+}
+
+body {
+    border: 2px solid black;
+    height: 2000px;
+}
+
+nav {
+    background: pink;
+    position: sticky;
+    top: 0px;
+
+}
+
+.box1 {
+    position: relative;
+    top: 13em;
+    left: 13em;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    line-height: 100px; 
+}
+
+.box2 {
+    position: absolute;  
+    top: 4px;
+    right: 4px;
+    /* z-index: -1; */
+    background: green;
+     line-height: 30px; 
+}
+
+.action_button {
+    position: sticky;
+    top: 90vh;
+    left: 80vw;
+    background: yellowgreen;
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 3em;
+    box-shadow: 2px 2px 2px black;
+}
