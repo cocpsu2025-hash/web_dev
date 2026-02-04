@@ -21,7 +21,7 @@ nav {
     background: lightblue;
     padding: 1em;
 }
- 
+
 .logo {
     margin-right: auto;
 }
@@ -34,3 +34,18 @@ nav {
 .login {
     margin-left: auto;
 }
+
+.container {
+    display: flex;
+    border: 2px solid red;
+    width: 15em;
+    div {
+        border: 2px solid green;
+        width: 15em;
+    }
+}
+ 
+.b1 { 
+    flex-shrink: 1;
+}
+ 
