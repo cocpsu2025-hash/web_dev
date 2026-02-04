@@ -14,17 +14,18 @@
 
     /* grid-template-columns:repeat(auto-fill, minmax(100px, 1fr)); */
 
-    grid-template-areas:  "head head head" 
-                          "sidebar main main"
-                          "sidebar foot foot2" ;
-    
+    grid-template-areas: "head head head"
+        "sidebar main main"
+        "sidebar foot foot2";
+
     /* column-gap: 1em;
     row-gap: 1em; */
     gap: 0.6em;
 
     div {
         border: 2px solid green;
-    }                      
+        min-height: 7em;
+    }
 }
 
 .box1 {
@@ -35,14 +36,21 @@
 
 .box2 {
     background: rgb(207, 183, 231);
+    grid-area: sidebar;
 }
 
 .box3 {
     background: greenyellow;
+    grid-area: main;
     /* overflow: auto; */
 
 }
 
 .box4 {
     background: pink;
+    grid-area: foot;
+}
+
+.box5 {
+    grid-area: foot2;
 }
