@@ -14,9 +14,9 @@
 
     /* grid-template-columns:repeat(auto-fill, minmax(100px, 1fr)); */
 
-    grid-template-areas: "head head head"
+    /* grid-template-areas: "head head head"
         "sidebar main main"
-        "sidebar foot foot2";
+        "sidebar foot foot2"; */
 
     /* column-gap: 1em;
     row-gap: 1em; */
@@ -31,26 +31,42 @@
 .box1 {
     background: rgb(237, 237, 9);
     border: 2px solid red;
-    grid-area: head;
+    /* grid-area: head; */
+
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    grid-column: 1 / span 3;
 }
 
 .box2 {
     background: rgb(207, 183, 231);
-    grid-area: sidebar;
+
+
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+
+    /* grid-row: 2/4; */
+
+    grid-row: 2 / span 2;
+
+    /* grid-area: sidebar; */
 }
 
 .box3 {
     background: greenyellow;
-    grid-area: main;
+    /* grid-area: main; */
     /* overflow: auto; */
 
 }
 
 .box4 {
     background: pink;
-    grid-area: foot;
+    /* grid-area: foot; */
 }
 
 .box5 {
-    grid-area: foot2;
+    /* grid-area: foot2; */
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
