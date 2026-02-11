@@ -26,7 +26,11 @@ nav {
 
 section {
     font-size: clamp(1rem, 2.5vw, 1.8rem);
-    margin: 2em 4em;
+    margin: 0.5em 3em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 2px black;
+    padding: 1.5em;
 }
 
 .container {
@@ -38,11 +42,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     justify-content: center;
-    gap: 1em;
-
-
-    margin: 1em 2em;
-    border: 2px solid green;
+    gap: 1em; 
+    margin: 1em 2em; 
 }
 
 .card {
@@ -50,6 +51,10 @@ section {
     max-width: 18em;
     border-radius: 1em;
     justify-self: center;
+}
+
+.card:hover {
+       box-shadow: 2px 2px 2px rgb(234, 137, 18);
 }
 
 .card h1 {
