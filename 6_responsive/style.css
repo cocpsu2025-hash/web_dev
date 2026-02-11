@@ -64,6 +64,8 @@ section {
 
 .card:hover {
     box-shadow: 2px 2px 2px rgb(234, 137, 18);
+    rotate: 10deg;
+
 }
 
 .card h1 {
@@ -82,17 +84,17 @@ section {
 }
 
 footer {
-    text-align: center;
     font-weight: 600;
     padding: 1em;
-}
+    background: rgb(210, 209, 209);
+}s
 
 .drawer-menu {
     position: fixed;
     top: 0;
     right: 0;
 
-    width: 40vw;
+    width: 30vw;
     padding: 1em; 
     background: black;
     color: white;
@@ -127,5 +129,9 @@ footer {
 
     .right span {
         margin-right: 1em;
+    }
+
+    footer {
+            text-align: center;
     }
 }
