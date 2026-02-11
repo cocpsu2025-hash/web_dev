@@ -25,23 +25,31 @@ nav {
 }
 
 section {
-    font-size: clamp(1rem,2.5vw,1.8rem);
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
     margin: 2em 4em;
 }
 
 .container {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1em; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    justify-content: center;
     gap: 1em;
+
+
     margin: 1em 2em;
-    border: 2px solid green;   
+    border: 2px solid green;
 }
 
 .card {
     border: 2px solid black;
     max-width: 18em;
-    border-radius: 1em; 
+    border-radius: 1em;
+    justify-self: center;
 }
 
 .card h1 {
