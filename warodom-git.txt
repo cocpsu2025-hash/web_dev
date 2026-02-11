@@ -1,0 +1,22 @@
+git merge --no-ff hotfix -m "merge hotfix branch"
+
+git push origin hotfix
+git checkout -b hotfix
+
+git remote -v
+
+git checkout [commit-id]
+git reflog
+
+git init    	(เริ่มสร้าง git สำหรับ track)
+git status   		ดูสถานะ
+git add index.html     (ติดตาม index.html)
+git rm --cached index.html (ยกเลิกติดตาม)
+git commit -m "Init commit" (commit to local repo)
+git log
+git log --oneline
+
+git add .
+git commit -m "verb describe features"
+
+Vi Editor => Esc  Shift+Z Z
