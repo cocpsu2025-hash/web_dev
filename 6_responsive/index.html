@@ -72,6 +72,31 @@
     <footer>
         Copyright Reserved 2026
     </footer>
+
+
+    <div class="drawer-menu" id="menu" onclick='toggleMenu()'>
+        <div>Home</div>
+        <div>Service</div>
+        <div>Service2</div>
+        <hr />
+        <div>
+            <a href="/contact">
+                Contact
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            let draw_menu = document.getElementById("menu");
+            console.log("X: ", draw_menu)
+            if (draw_menu.style.display === "block")
+                draw_menu.style.display = "none"
+            else
+                draw_menu.style.display = "block"
+        }
+    </script>
+
 </body>
 
 </html>

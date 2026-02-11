@@ -87,12 +87,38 @@ footer {
     padding: 1em;
 }
 
+.drawer-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
 
+    width: 40vw;
+    padding: 1em; 
+    background: black;
+    color: white;
+    display: block;
+}
+
+.drawer-menu div {
+    padding: 0.3em 1em;
+    margin: 0.5em 1em;
+}
+
+.drawer-menu div:hover {
+    color: rgb(156, 162, 243) ;
+}
+
+.drawer-menu a {
+    color: rgb(163, 205, 250);
+    text-decoration: none;
+}
+
+/* PC Design */
 @media only screen and (min-width: 600px) {
     .hamburger {
         display: none;
     }
- 
+
     .right {
         display: block;
         font-size: 1.2rem;
